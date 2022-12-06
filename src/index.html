@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <title>HTML, CSS and SASS Boilerplate</title>
-    <meta
-      name="description"
-      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-    />
+    <meta name="description"
+          content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
+</head>
+<body>
     <div class="main">
-      <form class="form">
-        <!-- input go here -->
-        <button class="button">Save</button>
-      </form>
+        <form class="form">
+            <!-- input go here -->
+            <input type="text" class="input" name="name" required="required" minlength="20" placeholder="Name">
+            <input type="number" class="input" name="contributors" required="required" min="1" max="100" placeholder="Number of Contributors">
+            <input type="number" class="input" name="Max Branches" required="required" min="1" max="100" placeholder="Max Branches">
+            <button class="button">Save</button>
+        </form>
     </div>
-  </body>
+</body>
 </html>
